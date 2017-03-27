@@ -87,13 +87,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">The Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#tutorials">Experiments & Training</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#contact">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -111,61 +111,55 @@
                 <h1 id="homeHeading">Power Infrastructure Cybersecurity Laboratory</h1>
                 <hr>
                 <p>Department of Electrical and Computer Engineering, Iowa State University</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <a href="#tutorials" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">ISU PowerCyber Lab</h2>
-                    <hr class="light">
-                    <p class="text-faded">PowerCyber lab of Iowa State University has been under construction with collaborated efforts for ten years. Our research mainly focuses on Cyber-physical systems framework for risk modeling, risk mitigation, and attack-resilient control algorithms that account for dynamics of the physical system as well as the operational aspects of the cyber-based control network. Besides, the lab is also remotely available to run various experiments for different types of users such as universities, companies and national institutes</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
+    </header>  
+    <section id="tutorials">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services Offered</h2>
+                    <h2 class="section-heading">Tutorials and Training</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 text-center">
+                 <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
-                        <a href="/Experiments/download/AGC39busopalrt.py" download><i class="fa fa-4x fa-download text-primary sr-icons"></i></a>
+                        <a href="/powercyber/storyboard.php"><i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i></a>
+                        <h3>Storyboards</h3>
+                        <p class="text-muted">Browse through our standard template storyboards to get an idea about the Cyber-physical systems.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 text-center">
+                    <div class="service-box">
+                        <!--<a href="/powercyber/download/AGC39busopalrt.py" download><i class="fa fa-4x fa-download text-primary sr-icons"></i></a>-->
+                        <a href="/powercyber/powersystems.php"><i class="fa fa-4x fa-download text-primary sr-icons"></i></a>
                         <h3>Power Grid Models</h3>
                         <p class="text-muted">Download some of our very own powersystem models for experiments.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center">
+                <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
-                        <h3>Cyber Security Experiments</h3>
-                        <p class="text-muted">Feel free to experiment within the Cyberspace!</p>
+                        <a href="/powercyber/cybersecuritytools.php"><i class="fa fa-4x fa-desktop text-primary sr-icons"></i></a>
+                        <h3>Cyber Security Tools</h3>
+                        <p class="text-muted">Feel free to explore the tools within the Cyberspace!</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center">
+                <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Storyboards</h3>
-                        <p class="text-muted">Browse through our standard template storyboards to get an idea about the Cyber-physical systems.</p>
+                        <i class="fa fa-4x fa-edit text-primary sr-icons"></i>
+                        <h3>CPS Training</h3>
+                        <p class="text-muted">Get access to all manuals and training</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
+    <!--<section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
@@ -260,7 +254,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!--<aside class="bg-dark">
         <div class="container text-center">
@@ -269,7 +263,26 @@
                 <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
             </div>
         </div>
-    </aside>!-->
+    </aside>!
+
+    <section id="personalexperiment">
+                <div class="count-particles">
+                    <div id="particles-js"></div>
+                </div>
+    </section>-->
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">ISU PowerCyber Lab</h2>
+                    <hr class="light">
+                    <p class="text-faded">PowerCyber lab of Iowa State University has been under construction with collaborated efforts for ten years. Our research mainly focuses on Cyber-physical systems framework for risk modeling, risk mitigation, and attack-resilient control algorithms that account for dynamics of the physical system as well as the operational aspects of the cyber-based control network. Besides, the lab is also remotely available to run various experiments for different types of users such as universities, companies and national institutes</p>
+                    <a href="#tutorials" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact">
         <div class="container">
@@ -304,6 +317,11 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+    <!-- Particles Animation JavaScript -->
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+
 
 </body>
 </html>
