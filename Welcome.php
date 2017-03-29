@@ -87,7 +87,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">The Team</a>
+                        <a class="page-scroll" href="/powercyber/team.php#team">The Team</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#tutorials">Experiments & Training</a>
@@ -114,7 +114,7 @@
                 <a href="#tutorials" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
-    </header>  
+    </header>
     <section id="tutorials">
         <div class="container">
             <div class="row">
@@ -270,20 +270,6 @@
                     <div id="particles-js"></div>
                 </div>
     </section>-->
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">ISU PowerCyber Lab</h2>
-                    <hr class="light">
-                    <p class="text-faded">PowerCyber lab of Iowa State University has been under construction with collaborated efforts for ten years. Our research mainly focuses on Cyber-physical systems framework for risk modeling, risk mitigation, and attack-resilient control algorithms that account for dynamics of the physical system as well as the operational aspects of the cyber-based control network. Besides, the lab is also remotely available to run various experiments for different types of users such as universities, companies and national institutes</p>
-                    <a href="#tutorials" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="contact">
         <div class="container">
             <div class="row">
