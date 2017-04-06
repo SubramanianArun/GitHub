@@ -193,16 +193,19 @@ function redirect(form){
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#team">The Team</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Experiments & Training</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Downloads</a>
+                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
                     </li>
                 </ul>
             </div>
@@ -222,10 +225,46 @@ function redirect(form){
                       <div class="panel panel-default">
                           <div class="panel-heading">
                               <h4 class="panel-title">
-                                  <a data-toggle="collapse" href="#collapse3">Replay Attack</a>
+                                  <a data-toggle="collapse" href="#portscan">Network Discovery with Port Scanning</a>
                               </h4>
                           </div>
-                          <div id="collapse3" class="panel-collapse collapse">
+                          <div id="portscan" class="panel-collapse collapse">
+                              <div class="panel-body"><font color = "black">The attack involves a careful manipulation of the measurements (analog and status) that come from the substation remote terminal units (RTU) to the control center for State Estimation. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to forward all its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br>  This does not cause any bad data alarms in the control center and consequently, the attacker succeeds in impeding the situational awareness capabilities of the operator. Consequently, all applications that rely on State Estimator would be affected such as Contingency Analysis, Power Markets, etc., Also, this attack could be used to further trigger other attacks that could cause additional damage such as opening/overloading critical transmission lines.</font></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel-group">
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                              <h4 class="panel-title">
+                                  <a data-toggle="collapse" href="#vulnerability">Vulnerability Assessment with OpenVAS</a>
+                              </h4>
+                          </div>
+                          <div id="vulnerability" class="panel-collapse collapse">
+                              <div class="panel-body"><font color = "black">The attack involves a careful manipulation of the measurements (analog and status) that come from the substation remote terminal units (RTU) to the control center for State Estimation. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to forward all its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br>  This does not cause any bad data alarms in the control center and consequently, the attacker succeeds in impeding the situational awareness capabilities of the operator. Consequently, all applications that rely on State Estimator would be affected such as Contingency Analysis, Power Markets, etc., Also, this attack could be used to further trigger other attacks that could cause additional damage such as opening/overloading critical transmission lines.</font></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel-group">
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                              <h4 class="panel-title">
+                                  <a data-toggle="collapse" href="#wireshark">Wireshark, Scripting and Replay Attack</a>
+                              </h4>
+                          </div>
+                          <div id="wireshark" class="panel-collapse collapse">
+                              <div class="panel-body"><font color = "black">The attack involves a careful manipulation of the measurements (analog and status) that come from the substation remote terminal units (RTU) to the control center for State Estimation. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to forward all its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br>  This does not cause any bad data alarms in the control center and consequently, the attacker succeeds in impeding the situational awareness capabilities of the operator. Consequently, all applications that rely on State Estimator would be affected such as Contingency Analysis, Power Markets, etc., Also, this attack could be used to further trigger other attacks that could cause additional damage such as opening/overloading critical transmission lines.</font></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel-group">
+                      <div class="panel panel-default">
+                          <div class="panel-heading">
+                              <h4 class="panel-title">
+                                  <a data-toggle="collapse" href="#pfsense">Pfsense Firewall Configuration</a>
+                              </h4>
+                          </div>
+                          <div id="pfsense" class="panel-collapse collapse">
                               <div class="panel-body"><font color = "black">The attack involves a careful manipulation of the measurements (analog and status) that come from the substation remote terminal units (RTU) to the control center for State Estimation. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to forward all its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br>  This does not cause any bad data alarms in the control center and consequently, the attacker succeeds in impeding the situational awareness capabilities of the operator. Consequently, all applications that rely on State Estimator would be affected such as Contingency Analysis, Power Markets, etc., Also, this attack could be used to further trigger other attacks that could cause additional damage such as opening/overloading critical transmission lines.</font></div>
                           </div>
                       </div>
@@ -251,11 +290,23 @@ function redirect(form){
                             <div class="panel panel-default">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1">Highly Co-ordinated attack on a Remedial Action Scheme</a>
+                                    <a data-toggle="collapse" href="#collapse1">Co-ordinated attack and defense on a Remedial Action Scheme (automated)</a>
                                 </h4>
                               </div>
                               <div id="collapse1" class="panel-collapse collapse">
-                                    <div class="panel-body"><font color = "black">The attack involves a combination of two coordinated attack actions on a power system protection scheme known as Remedial Action Scheme (RAS). Typically, RAS are intended to take specific protective measures to prevent the spread of large disturbances under heavy system loading conditions.<br><br> However, the attacker intelligently triggers the operation of this RAS by creating a data integrity attack on unencrypted communication between the substation and the control center that uses the DNP3 protocol. In order to create a cascading outage, the attacker also blocks the communication between the protection relays that are involved in the RAS through a targeted Denial of Service (DoS) attack on one of the protection controllers.<br><br>This prevents the successful operation of the RAS and in turn initiates secondary protection to be tripped to avoid thermal overload on the impacted transmission line. As a result of this coordinated attack involving data integrity attack to trip a breaker and a DoS attack on RAS communications, the overall system frequency is also affected as it causes the islanding of a generator from the rest of the system.<br><br><a href="/DHSDemo/Home.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/PowerCyber_RemoteAccess_UserGuide.pdf" class="btn btn-primary" download>Manual</a></font></div>
+                                    <div class="panel-body"><font color = "black">The attack involves a combination of two coordinated attack actions on a power system protection scheme known as Remedial Action Scheme (RAS). Typically, RAS are intended to take specific protective measures to prevent the spread of large disturbances under heavy system loading conditions.<br><br> However, the attacker intelligently triggers the operation of this RAS by creating a data integrity attack on unencrypted communication between the substation and the control center that uses the DNP3 protocol. In order to create a cascading outage, the attacker also blocks the communication between the protection relays that are involved in the RAS through a targeted Denial of Service (DoS) attack on one of the protection controllers.<br><br>This prevents the successful operation of the RAS and in turn initiates secondary protection to be tripped to avoid thermal overload on the impacted transmission line. As a result of this coordinated attack involving data integrity attack to trip a breaker and a DoS attack on RAS communications, the overall system frequency is also affected as it causes the islanding of a generator from the rest of the system.<br><br><a href="/DHSDemo/Home.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/PowerCyber_RemoteAccess_UserGuide.pdf" class="btn btn-primary" download>Manual</a></font></div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse1_1">Co-ordinated attack and defense on a Remedial Action Scheme</a>
+                                </h4>
+                              </div>
+                              <div id="collapse1_1" class="panel-collapse collapse">
+                                    <div class="panel-body"><font color = "black">The attack involves a combination of two coordinated attack actions on a power system protection scheme known as Remedial Action Scheme (RAS). Typically, RAS are intended to take specific protective measures to prevent the spread of large disturbances under heavy system loading conditions.<br><br> However, the attacker intelligently triggers the operation of this RAS by creating a data integrity attack on unencrypted communication between the substation and the control center that uses the DNP3 protocol. In order to create a cascading outage, the attacker also blocks the communication between the protection relays that are involved in the RAS through a targeted Denial of Service (DoS) attack on one of the protection controllers.<br><br>This prevents the successful operation of the RAS and in turn initiates secondary protection to be tripped to avoid thermal overload on the impacted transmission line. As a result of this coordinated attack involving data integrity attack to trip a breaker and a DoS attack on RAS communications, the overall system frequency is also affected as it causes the islanding of a generator from the rest of the system.<br><br><a href="/powercyber/ras.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/PowerCyber_RemoteAccess_UserGuide.pdf" class="btn btn-primary" download>Manual</a></font></div>
                               </div>
                             </div>
                         </div>
@@ -263,7 +314,7 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse2">Attack on Model-based Automatic Generation Control</a>
+                                    <a data-toggle="collapse" href="#collapse2">Attack and Defense on Model-based Automatic Generation Control (automated)</a>
                                 </h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse">
@@ -275,11 +326,11 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse5">State Estimation</a>
+                                    <a data-toggle="collapse" href="#collapse2_2">Attack and Defense on Model-based Automatic Generation Control</a>
                                 </h4>
                             </div>
-                            <div id="collapse5" class="panel-collapse collapse">
-                                <div class="panel-body"><font color = "black">The attacker has physical access to the RTU communication network and is as such able to connect his own equipment to the network using a switch in an unmanned substation. From this point the attacker floods a number of logical connections with a continuous stream of packets, which creates an overload in the Front-End applications and blinds the operators to what is happening in the grid.<br><br>  The attacker has chosen a time for the attack when a severe snow and ice storm is expected and the control operators are unable to counteract the loss of physical devices created by the storm. This leads to an overload of power lines feeding the capital city and this also goes unnoticed in the control centre. The blind SCADA severely delays the power restoration efforts to reenergize the capital city.</font></div>
+                            <div id="collapse2_2" class="panel-collapse collapse">
+                                <div class="panel-body"><font color = "black">The attack involves a stealthy manipulation of measurements/controls used in Automatic Generation Control (AGC) algorithm to destabilize and affect the frequency of the power grid. This attack is a version of the classic Man-in-the-Middle attack, where the attacker intercepts the communication between the control center and the remote substations and chooses to stealthily modify either the frequency and tie-line measurements going to the control center, or the AGC control commands going to the generating stations. <br><br> This is achieved by executing an ARP poisoning attack first, which tricks the remote substation to forward the data to the attacker before sending it to the external gateway. The attacker then selects the appropriate information that is to be replaced and modifies it appropriately using custom attack scripts and forwards it to the external gateway.<br><br>  As a result of this manipulation, there is a steady frequency deviation in the system. Eventually, this frequency deviation causes the load in the system to be shed in an attempt to restore frequency. A sustained attack could potentially lead to a major portion of the load in the power system to be unserved.<br><br><a href="/DHSDemo/S2/Home.php" class="btn btn-primary">Launch</a></font></div>
                             </div>
                         </div>
                     </div>
@@ -287,7 +338,7 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse6">Ukraine Style Attack</a>
+                                    <a data-toggle="collapse" href="#collapse6">Ukraine Style Attack and Defense Experiment</a>
                                 </h4>
                             </div>
                             <div id="collapse6" class="panel-collapse collapse">
@@ -299,11 +350,23 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse7">Settings Manipulation</a>
+                                    <a data-toggle="collapse" href="#collapse7"><i>Settings Manipulation (upcoming)</i></a>
                                 </h4>
                             </div>
                             <div id="collapse7" class="panel-collapse collapse">
                                 <div class="panel-body"><font color = "black">The attacker is an employee of the attacked utility and he has access to substations and to substation engineering tools. He uses the engineering tools for the substation protection devices to set line protection parameters to default values. The default values in the protection devices are defined at such low limits that the protection devices will trip all power lines also at a normal operating state. The attack is done in a central HV/MV substation on the MV side and it will cause a total blackout in the capital city.</font></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse5"><i>State Estimation (upcoming)</i></a>
+                                </h4>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <div class="panel-body"><font color = "black">The attacker has physical access to the RTU communication network and is as such able to connect his own equipment to the network using a switch in an unmanned substation. From this point the attacker floods a number of logical connections with a continuous stream of packets, which creates an overload in the Front-End applications and blinds the operators to what is happening in the grid.<br><br>  The attacker has chosen a time for the attack when a severe snow and ice storm is expected and the control operators are unable to counteract the loss of physical devices created by the storm. This leads to an overload of power lines feeding the capital city and this also goes unnoticed in the control centre. The blind SCADA severely delays the power restoration efforts to reenergize the capital city.</font></div>
                             </div>
                         </div>
                     </div>

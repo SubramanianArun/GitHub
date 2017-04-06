@@ -48,16 +48,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#page-top">The Team</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Experiments & Training</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Downloads</a>
+                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
                     </li>
                 </ul>
             </div>
@@ -73,65 +76,151 @@
           <div class="container">
               <div class="row">
                   <div class="col-lg-12 text-center">
-                      <h2 class="section-heading">ISU PowerCyber Lab</h2>                    
+                      <h2 class="section-heading">ISU PowerCyber Lab</h2>
                       <p>PowerCyber lab of Iowa State University has been under construction with collaborated efforts for ten years. Our research mainly focuses on Cyber-physical systems framework for risk modeling, risk mitigation, and attack-resilient control algorithms that account for dynamics of the physical system as well as the operational aspects of the cyber-based control network. Besides, the lab is also remotely available to run various experiments for different types of users such as universities, companies and national institutes</p>
                   </div>
               </div>
           </div>
       </section>
-      <section id="team">
-          <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading">Faculty</div>
-                <div class="panel-body">
-                  <ul>
-                    <li><a class="nav-link" href="http://ecpe.ece.iastate.edu/gmani">Dr. Manimaran Govindarasu (Principal Investigator)</a></li><br>
-                    <li><a class="nav-link" href="http://www.engineering.iastate.edu/directory/?user_page=vajjarap">Dr. Venkataramana Ajjarapu</a></li><br>
-                    <li><a class="nav-link" href="http://www.dougj.net/">Dr. Doug Jacobson</a></li><br>
-                    <li><a class="nav-link" href="http://home.eng.iastate.edu/~ugvaidya/team.html">Dr. Umesh Vaidya</a></li><br>
-                    <li><a class="nav-link" href="http://school.eecs.wsu.edu/node/1046">Dr. Chen-Ching Liu (Collaborator, Washington State University)</a></li><br>
-                </ul>
+      <ul class="nav nav-tabs text-center">
+        <li><a data-toggle="tab" href="#team">Team</a></li>
+        <li class="active"><a data-toggle="tab" href="#publications">Publications</a></li>
+        <li><a data-toggle="tab" href="#researchfocus">Research Focus</a></li>
+        <li><a data-toggle="tab" href="#acknowledgements">Acknowledgements</a></li>
+      </ul>
+      <div class="tab-content">
+          <div id="publications" class="tab-pane fade in active" active="true">
+            <section>
+              <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Book Chapters & Newsletter</div>
+                    <div class="panel-body">
+                      <ul>
+                        <li>[1] S. Sridhar, G. Manimaran, and C. C. Liu, "Risk Analysis of Coordinated Cyber Attacks on Power Grid," Edited by A. Chakrabortty and M.D. Ilic (eds.), Control and Optimization Methods for Electric Smart Grids, 2012.</li><br>
+                        <li>[2] Manimaran Govindarasu and Adam Hahn, <a href="http://smartgrid.ieee.org/newsletter/january-2012/479-what-the-power-industry-has-to-learn-about-cyber-vulnerability-disclosure">"What the Power Industry Has to Learn about Cyber Vulnerability Disclosure"</a>, IEEE Smart Grid Newsletter, Jan. 2012.</li><br>
+                        <li>[3] Aditya Ashok, Pengyuan Wang, and Manimaran Govindarasu, "Cyber-Physical Security Testbeds for an Attack-resilient Smart Grid",in Suryanarayanan, Hansen and Roche (Ed.): "Cyber-Physical-Social Systems and Constructs in Electric Power Engineering", The IET Press, Under review, 2016.</li><br>
+                    </ul>
+                    </div>
                 </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading">Current Students</div>
-                <div class="panel-body">
-                  <ul>
-                    <li>Ashok, Aditya, Ph.D.</li><br>
-                    <li>Wang, Pengyuan, Ph.D.</li><br>
-                    <li>Singh, Vivek Kumar, Ph.D.</li><br>
-                    <li>Arunachalam, Subramanian, M.S.</li><br>
-                    <li>Sarangan, Sri Krishna, M.S.</li><br>
-                    <li>Perez Callupe, Steven V, M.S.</li><br>
-                    <li>Drahos, Jacob M, M.S.</li><br>
-                    <li>Ulrich, Jacob J, M.S.</li><br>
-                    <li>Ebrahem, Haythem E, M.S.</li><br>
-                </ul>
+              </div>
+              <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Journal Publications & Newsletter</div>
+                    <div class="panel-body">
+                      <ul>
+                        <li>[1] D. Basheer and G. Manimaran, "Novel hybrid schemes employing packet marking and logging for IP traceback," IEEE Trans. on Parallel and Distributed Systems, vol. 17, no. 5, pp. 403-418, May 2006<!--<a href ="/powercyber/download/publications/1.pdf" disabled>[pdf]</a>--></li><br>
+                        <li>[2] D. Basheer and G. Manimaran, "Distributed packet pairing for reflector based DDoS attack mitigation," Computer Communications, vol. 29, no. 12, pp. 2269-2280, Aug. 2006.<a href ="/powercyber/download/publications/2.pdf">[pdf]</a></li><br>
+                        <li>[3] Z.  Xie, G. Manimaran, V. Vittal, A. G. Phadke, and V. Centeno, "An information architecture for future power systems and its reliability analysis," IEEE Trans. on Power Syst., vol.17, no.3, pp.857-863, Aug. 2002<a href ="/powercyber/download/publications/3.pdf">[pdf]</a></li><br>
+                        <li>[4] S. Holeman, G. Manimaran, J. Davis, and A. Chakrabarti, "Differentially secure multicasting and its implementation methods," Computers & Security, vol.21, no.8, pp.736-749, Nov. 2002.<!--<a href ="/powercyber/download/publications/4.pdf">[pdf]</a>--></li><br>
+                        <li>[5] A. Chakrabarti and G. Manimaran, "Internet infrastructure security: A taxonomy," IEEE Network, vol.16, no.6, pp.13-21, Nov/Dec. 2002. (Acceptance rate: 20%)<!--<a href ="/powercyber/download/publications/5.pdf">[pdf]</a>--></li><br>
+                        <li>[6] R. A. Leon, V. Vittal, and G. Manimaran, "Application of sensor network for secure electric energy infrastructure," IEEE Trans. on Power Del, vol. 22, no. 2, pp. 1021 - 1028, Apr. 2007<a href ="/powercyber/download/publications/6.pdf">[pdf]</a></li><br>
+                        <li>[7] C.-W. Ten, C.-C. Liu, and G. Manimaran, "Vulnerability assessment of cybersecurity for SCADA systems," IEEE Trans. on Power Systems, vol. 23, no. 4, pp. 1836-1846, Nov. 2008.<a href ="/powercyber/download/publications/7.pdf">[pdf]</a></li><br>
+                        <li>[8] S. Pudar, G. Manimaran, and C.-C. Liu, "A practical method and tool for integrated modeling of security attacks and counter measures," Computers & Security, vol. 28, no. 8, pp. 754-771, Nov. 2009.<!--<a href ="/powercyber/download/publications/8.pdf">-->[pdf]</a></li><br>
+                        <li>[9] C.-W. Ten, G. Manimaran, and C.-C. Liu, "Cybersecurity for critical infrastructures: Attack and defense modeling," IEEE Trans. on Systems, Man, and Cybernetics - Part A, vol.40, no.4, pp.853-865, July 2010.<a href ="/powercyber/download/publications/9.pdf">[pdf]</a></li><br>
+                        <li>[10] A. Hahn, G. Manimaran, "Cyber Attack Exposure Evaluation Framework for the Smart Grid," IEEE Transactions on Smart Grid, vol. 2, no. 4, pp. 835-843, Nov. 2011.<a href ="/powercyber/download/publications/10.pdf">[pdf]</a></li><br>
+                        <li>[11] S. Sridhar, A. Hahn, and G. Manimaran, "Cyber-physical system security for the electric power grid," Proceedings of the IEEE, vol. 100, no. 1, pp. 210-224, Jan. 2012.<a href ="/powercyber/download/publications/11.pdf">[pdf]</a></li><br>
+                        <li>[12] B. Fateh, G. Manimaran, and V. Ajjarapu, "Wireless sensor network for transmission line monitoring in smart grid," IEEE Transactions on Smart Grid, June 2013. <a href ="/powercyber/download/publications/12.pdf">[pdf]</a></li><br>
+                        <li>[13] A. Hahn, A. Ashok, S. Siddharth, and G. Manimaran, "Cyber-Physical Security Testbeds: Architecture, Application, and Evaluation for Smart Grid," IEEE Trans. on Smart Grid, June 2013<a href ="/powercyber/download/publications/13.pdf">[pdf]</a></li><br>
+                        <li>[14] S. Sridhar, and G. Manimaran, "Model-Based Attack Detection and Mitigation for Automatic Generation Control," IEEE Trans. on Smart Grid, March 2014<a href ="/powercyber/download/publications/14.pdf">[pdf]</a></li><br>
+                        <li>[15] A. Ashok, A. Hahn, and G. Manimaran, "Cyber-physical security of Wide-Area Monitoring, Protection and Control in a smart grid environment," Journal of Advanced Research, July 2014.<!--<a href ="/powercyber/download/publications/15.pdf">[pdf]</a>--></li><br>
+                        <li>[16] A. Ashok, G. Manimaran, and V. Ajjarapu, , "Online detection of cyber attacks in Power System State Estimation" IEEE Trans. on Smart Grid, Accepted for publication, 2016.<!--<a href ="/powercyber/download/publications/16.pdf">[pdf]</a>--></li><br>
+                    </ul>
+                    </div>
                 </div>
-            </div>
+              </div>
+            </section>
           </div>
-          <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-heading">Previous Students</div>
-                <div class="panel-body">
-                  <ul>
-                    <li>Adam Hahn, Ph.D.</li><br>
-                    <li>Siddharth Sridhar, Ph.D.</li><br>
-                    <li>Chee-Wooi Ten, Ph.D.</li><br>
-                    <li>Mohammad Fraiwan, Ph.D.</li><br>
-                    <li>Jie Yan, Ph.D.</li><br>
-                    <li>Srdjan Pudar, M.S.</li><br>
-                    <li>Brown, Matthew, M.S.</li><br>
-                    <li>Krishnaswamy, Sujatha, M.S.</li><br>
-                    <li>Pappa, Aswin Chidambaram, M.S.</li><br>
-                    <li>Ryan Eikanger, REU Student</li><br>
-                </ul>
+          <div id="team" class="tab-pane fade">
+              <section id="faculty">
+                  <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Faculty</div>
+                        <div class="panel-body">
+                          <ul>
+                            <li><a class="nav-link" href="http://ecpe.ece.iastate.edu/gmani">Dr. Manimaran Govindarasu (Principal Investigator)</a></li><br>
+                            <li><a class="nav-link" href="http://www.engineering.iastate.edu/directory/?user_page=vajjarap">Dr. Venkataramana Ajjarapu</a></li><br>
+                            <li><a class="nav-link" href="http://www.dougj.net/">Dr. Doug Jacobson</a></li><br>
+                            <li><a class="nav-link" href="http://home.eng.iastate.edu/~ugvaidya/team.html">Dr. Umesh Vaidya</a></li><br>
+                            <li><a class="nav-link" href="http://school.eecs.wsu.edu/node/1046">Dr. Chen-Ching Liu (Collaborator, Washington State University)</a></li><br>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Current Students</div>
+                        <div class="panel-body">
+                          <ul>
+                            <li>Ashok, Aditya, Ph.D.</li><br>
+                            <li>Wang, Pengyuan, Ph.D.</li><br>
+                            <li>Singh, Vivek Kumar, Ph.D.</li><br>
+                            <li>Arunachalam, Subramanian, M.S.</li><br>
+                            <li>Sarangan, Sri Krishna, M.S.</li><br>
+                            <li>Perez Callupe, Steven V, M.S.</li><br>
+                            <li>Drahos, Jacob M, M.S.</li><br>
+                            <li>Ulrich, Jacob J, M.S.</li><br>
+                            <li>Ebrahem, Haythem E, M.S.</li><br>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Previous Students</div>
+                        <div class="panel-body">
+                          <ul>
+                            <li>Adam Hahn, Ph.D.</li><br>
+                            <li>Siddharth Sridhar, Ph.D.</li><br>
+                            <li>Chee-Wooi Ten, Ph.D.</li><br>
+                            <li>Mohammad Fraiwan, Ph.D.</li><br>
+                            <li>Jie Yan, Ph.D.</li><br>
+                            <li>Srdjan Pudar, M.S.</li><br>
+                            <li>Brown, Matthew, M.S.</li><br>
+                            <li>Krishnaswamy, Sujatha, M.S.</li><br>
+                            <li>Pappa, Aswin Chidambaram, M.S.</li><br>
+                            <li>Ryan Eikanger, REU Student</li><br>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+              </section>
+            </div>
+          <div id="researchfocus" class="tab-pane fade">
+            <section>
+              <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h4>Cyber-Physical Systems Security of the Smart Grid</h4></div>
+                    <div class="panel-body">
+                      The electric power grid is a highly automated network that uses a variety of sensors, information and control systems, and communication networks for the purpose of monitoring, protection and control of the grid. In recent years, there has been a growing threat of cyber-based attacks in numbers and sophistication on the nation’s electric grid and other critical infrastructure systems. Therefore, cyber security of the power grid — encompassing attack prevention, detection, mitigation, resilience, and atribuiton — is among the most important research issues today and in the future.
+                    </div>
                 </div>
-            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h4>Our research focus</h4></div>
+                    <div class="panel-body">
+                      Cyber-physical systems framework for risk modeling, risk mitigation, and attack-resilient protection and control algorithms that account for dynamics of the physical system as well as the operational aspects of the control network.                    </div>
+                </div>
+              </div>
+
+            </section>
           </div>
-      </section>
+          <div id="acknowledgements" class="tab-pane fade">
+            <section>
+              <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Book Chapters & Newsletter</div>
+                    <div class="panel-body">
+                      <ul>
+                        <li>[1] S. Sridhar, G. Manimaran, and C. C. Liu, "Risk Analysis of Coordinated Cyber Attacks on Power Grid," Edited by A. Chakrabortty and M.D. Ilic (eds.), Control and Optimization Methods for Electric Smart Grids, 2012.</li><br>
+                        <li>[2] Manimaran Govindarasu and Adam Hahn, <a href="http://smartgrid.ieee.org/newsletter/january-2012/479-what-the-power-industry-has-to-learn-about-cyber-vulnerability-disclosure">"What the Power Industry Has to Learn about Cyber Vulnerability Disclosure"</a>, IEEE Smart Grid Newsletter, Jan. 2012.</li><br>
+                        <li>[3] Aditya Ashok, Pengyuan Wang, and Manimaran Govindarasu, "Cyber-Physical Security Testbeds for an Attack-resilient Smart Grid",in Suryanarayanan, Hansen and Roche (Ed.): "Cyber-Physical-Social Systems and Constructs in Electric Power Engineering", The IET Press, Under review, 2016.</li><br>
+                    </ul>
+                    </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        </div>
 
 
     <!-- jQuery -->

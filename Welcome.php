@@ -87,16 +87,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#team">The Team</a>
+                        <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Experiments & Training</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#tutorials">Experiments & Training</a>
+                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Downloads</a>
+                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
                     </li>
                 </ul>
             </div>
@@ -119,7 +122,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Tutorials and Training</h2>
+                    <h2 class="section-heading">Experiments and Training</h2>
                     <hr class="primary">
                 </div>
             </div>
