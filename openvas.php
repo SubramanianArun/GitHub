@@ -171,7 +171,7 @@
         <div class="container">
             <h2>Control Center</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://10.1.200.200:8081/vnc/"></iframe>
+                <iframe class="embed-responsive-item" src="https://10.1.200.200:8081/vnc/"></iframe>
             </div>
         </div>
     </section>
