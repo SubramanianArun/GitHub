@@ -57,11 +57,12 @@
                         <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
+                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

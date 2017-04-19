@@ -57,10 +57,10 @@
                         <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
+                        <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
+                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -167,20 +167,39 @@
             </div>
         </div>
     </section>-->
-    <section id="controlcenter">
-        <div class="container">
-            <h2>Control Center</h2>
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://10.1.200.200:8081/vnc/"></iframe>
-            </div>
-        </div>
-    </section>
 
     <section id="attacker">
         <div class="container">
             <h2>Attacker</h2>
                 <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="http://10.1.200.136:8081/vnc/"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="controlcenter">
+        <div class="container">
+            <h2>Control Center</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="http://10.1.200.32:8080/vnc/"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="substationrtu">
+        <div class="container">
+            <h2>RTU - Substation</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="http://10.1.200.89:8080/vnc/"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="substationws">
+        <div class="container">
+            <h2>RTU - Workstation</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="http://10.1.200.55:8080/vnc/"></iframe>
             </div>
         </div>
     </section>

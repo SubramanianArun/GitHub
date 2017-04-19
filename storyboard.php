@@ -202,11 +202,12 @@ function redirect(form){
                         <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
+                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -273,7 +274,7 @@ function redirect(form){
                       <div class="panel panel-default">
                           <div class="panel-heading">
                               <h4 class="panel-title">
-                                  <a data-toggle="collapse" href="#collapse4">DoS Attack</a>
+                                  <a data-toggle="collapse" href="#collapse4"><i>DoS Attack (upcoming)</i></a>
                               </h4>
                           </div>
                           <div id="collapse4" class="panel-collapse collapse">
