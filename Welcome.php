@@ -80,14 +80,17 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Power Cyber Labs</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Power Infrastructure Cybersecurity Laboratory</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Experiments & Training</a>
+                        <a class="page-scroll" href="/powercyber/welcome.php#contact">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
@@ -97,9 +100,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -122,7 +122,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Experiments and Training</h2>
+                    <h2 class="section-heading">Test Bed Experiments</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -132,7 +132,7 @@
                  <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
                         <a href="/powercyber/storyboard.php"><i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i></a>
-                        <h3>Storyboards</h3>
+                        <h3> Storyboards</h3>
                         <p class="text-muted">Browse through our standard template storyboards to get an idea about the Cyber-physical systems.</p>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                     <div class="service-box">
                         <!--<a href="/powercyber/download/AGC39busopalrt.py" download><i class="fa fa-4x fa-download text-primary sr-icons"></i></a>-->
                         <a href="/powercyber/powersystems.php"><i class="fa fa-4x fa-download text-primary sr-icons"></i></a>
-                        <h3>Power Grid Models</h3>
+                        <h3>Power System Models</h3>
                         <p class="text-muted">Download some of our very own powersystem models for experiments.</p>
                     </div>
                 </div>
@@ -153,8 +153,8 @@
                 </div>
                 <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-edit text-primary sr-icons"></i>
-                        <h3>CPS Training</h3>
+                        <a href="http://10.1.0.5:8080/vnc/"><i class="fa fa-4x fa-edit text-primary sr-icons"></i></a>
+                        <h3>CPS Security Training</h3>
                         <p class="text-muted">Get access to all manuals and training</p>
                     </div>
                 </div>

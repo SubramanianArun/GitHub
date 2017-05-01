@@ -193,7 +193,10 @@ function redirect(form){
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Experiments & Training</a>
+                        <a class="page-scroll" href="/powercyber/welcome.php#contact">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
@@ -204,10 +207,6 @@ function redirect(form){
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>
-                    </li>
-
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -291,7 +290,7 @@ function redirect(form){
                             <div class="panel panel-default">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1">Co-ordinated attack and defense on a Remedial Action Scheme (automated)</a>
+                                    <a data-toggle="collapse" href="#collapse1">Attack and defense on a Remedial Action Scheme (automated)</a>
                                 </h4>
                               </div>
                               <div id="collapse1" class="panel-collapse collapse">
@@ -303,7 +302,7 @@ function redirect(form){
                             <div class="panel panel-default">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1_1">Co-ordinated attack and defense on a Remedial Action Scheme</a>
+                                    <a data-toggle="collapse" href="#collapse1_1">Attack and defense on a Remedial Action Scheme (interactive)</a>
                                 </h4>
                               </div>
                               <div id="collapse1_1" class="panel-collapse collapse">
@@ -315,7 +314,7 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse2">Attack and Defense on Model-based Automatic Generation Control (automated)</a>
+                                    <a data-toggle="collapse" href="#collapse2">Attack and Defense on Model-based AGC (automated)</a>
                                 </h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse">
@@ -327,7 +326,7 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse2_2">Attack and Defense on Model-based Automatic Generation Control</a>
+                                    <a data-toggle="collapse" href="#collapse2_2">Attack and Defense on Model-based AGC (interactive)</a>
                                 </h4>
                             </div>
                             <div id="collapse2_2" class="panel-collapse collapse">
