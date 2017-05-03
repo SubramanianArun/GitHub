@@ -51,10 +51,10 @@
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Experiments & Training</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                      <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#contact">Contact</a>

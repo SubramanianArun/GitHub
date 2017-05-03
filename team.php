@@ -54,10 +54,10 @@
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                      <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -71,29 +71,28 @@
 
   <header class="customheader">
   </header>
-
-      <section id="intro">
+      <!--<section id="intro" padding="10px">
           <div class="container">
               <div class="row">
-                  <div class="col-lg-12 text-center">
+                  <div class="col-lg-12 text-left">
                       <h2 class="section-heading">ISU PowerCyber Lab</h2>
                       <p>PowerCyber lab of Iowa State University has been under construction with collaborated efforts for ten years. Our research mainly focuses on Cyber-physical systems framework for risk modeling, risk mitigation, and attack-resilient control algorithms that account for dynamics of the physical system as well as the operational aspects of the cyber-based control network. Besides, the lab is also remotely available to run various experiments for different types of users such as universities, companies and national institutes</p>
                   </div>
               </div>
           </div>
-      </section>
+      </section>-->
       <ul class="nav nav-tabs text-center">
-        <li><a data-toggle="tab" href="#team">Team</a></li>
-        <li class="active"><a data-toggle="tab" href="#publications">Publications</a></li>
+        <li class="active"><a data-toggle="tab" href="#team">Team</a></li>
+        <li><a data-toggle="tab" href="#publications">Publications</a></li>
         <li><a data-toggle="tab" href="#researchfocus">Research Focus</a></li>
         <li><a data-toggle="tab" href="#acknowledgements">Acknowledgements</a></li>
       </ul>
       <div class="tab-content">
-          <div id="publications" class="tab-pane fade in active" active="true">
+          <div id="publications" class="tab-pane fade">
             <section>
               <div class="container">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Book Chapters & Newsletter</div>
+                    <div class="panel-heading"><b><h3>Book Chapters & Newsletter</h3></b></div>
                     <div class="panel-body">
                       <ul>
                         <li>[1] S. Sridhar, G. Manimaran, and C. C. Liu, "Risk Analysis of Coordinated Cyber Attacks on Power Grid," Edited by A. Chakrabortty and M.D. Ilic (eds.), Control and Optimization Methods for Electric Smart Grids, 2012.</li><br>
@@ -130,7 +129,7 @@
               </div>
             </section>
           </div>
-          <div id="team" class="tab-pane fade">
+          <div id="team" class="tab-pane fade in active" active="true">
               <section id="faculty">
                   <div class="container">
                     <div class="panel panel-default">
@@ -219,15 +218,32 @@
               </div>
             </section>
           </div>
-
         </div>
 
-
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">Let's Get In Touch!</h2>
+                        <hr class="primary">
+                        <p>Ready to collaborate with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-2 text-center">
+                        <i class="fa fa-phone fa-3x sr-contact"></i>
+                        <p>515-294-9175</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        <p><a href="mailto:gmani@iastate.edu">gmani@iastate.edu</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

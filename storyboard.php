@@ -156,7 +156,7 @@ function redirect(form){
     <title>PowerCyber Labs - Iowa State University</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -199,10 +199,10 @@ function redirect(form){
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                      <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -222,10 +222,10 @@ function redirect(form){
                   <h2 class="section-heading text-center">Cyber Storyboards</h2>
                   <hr class="light">
                   <div class="panel-group">
-                      <div class="panel panel-default">
-                          <div class="panel-heading">
+                      <div class="panel panel-red">
+                          <div class="panel-heading" align="left">
                               <h4 class="panel-title">
-                                  <a data-toggle="collapse" href="#portscan">Network Discovery with Port Scanning</a>
+                                  <a data-toggle="collapse" href="#portscan">C1: Network Discovery with Port Scanning</a>
                               </h4>
                           </div>
                           <div id="portscan" class="panel-collapse collapse">
@@ -234,10 +234,10 @@ function redirect(form){
                       </div>
                   </div>
                   <div class="panel-group">
-                      <div class="panel panel-default">
-                          <div class="panel-heading">
+                      <div class="panel panel-red">
+                          <div class="panel-heading" align="left">
                               <h4 class="panel-title">
-                                  <a data-toggle="collapse" href="#vulnerability">Vulnerability Assessment with OpenVAS</a>
+                                  <a data-toggle="collapse" href="#vulnerability">C2: Vulnerability Assessment with OpenVAS</a>
                               </h4>
                           </div>
                           <div id="vulnerability" class="panel-collapse collapse">
@@ -246,10 +246,10 @@ function redirect(form){
                       </div>
                   </div>
                   <div class="panel-group">
-                      <div class="panel panel-default">
-                          <div class="panel-heading">
+                      <div class="panel panel-red">
+                          <div class="panel-heading" align="left">
                               <h4 class="panel-title">
-                                  <a data-toggle="collapse" href="#wireshark">Wireshark, Scripting and Replay Attack</a>
+                                  <a data-toggle="collapse" href="#wireshark">C3: Wireshark, Scripting and Replay Attack</a>
                               </h4>
                           </div>
                           <div id="wireshark" class="panel-collapse collapse">
@@ -258,10 +258,10 @@ function redirect(form){
                       </div>
                   </div>
                   <div class="panel-group">
-                      <div class="panel panel-default">
-                          <div class="panel-heading">
+                      <div class="panel panel-red">
+                          <div class="panel-heading" align="left">
                               <h4 class="panel-title">
-                                  <a data-toggle="collapse" href="#pfsense">Pfsense Firewall Configuration</a>
+                                  <a data-toggle="collapse" href="#pfsense">C4: Pfsense Firewall Configuration</a>
                               </h4>
                           </div>
                           <div id="pfsense" class="panel-collapse collapse">
@@ -273,7 +273,7 @@ function redirect(form){
                       <div class="panel panel-default">
                           <div class="panel-heading">
                               <h4 class="panel-title">
-                                  <a data-toggle="collapse" href="#collapse4"><i>DoS Attack (upcoming)</i></a>
+                                  <a data-toggle="collapse" href="#collapse4"><i>C5: DoS Attack (upcoming)</i></a>
                               </h4>
                           </div>
                           <div id="collapse4" class="panel-collapse collapse">
@@ -287,10 +287,10 @@ function redirect(form){
                     <h2 class="section-heading text-center">ICS Storyboards</h2>
                     <hr class="light">
                         <div class="panel-group">
-                            <div class="panel panel-default">
+                            <div class="panel panel-green">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1">Attack and defense on a Remedial Action Scheme (automated)</a>
+                                    <a data-toggle="collapse" href="#collapse1">ICS1: Attack and defense on a Remedial Action Scheme (automated)</a>
                                 </h4>
                               </div>
                               <div id="collapse1" class="panel-collapse collapse">
@@ -299,10 +299,10 @@ function redirect(form){
                             </div>
                         </div>
                         <div class="panel-group">
-                            <div class="panel panel-default">
+                            <div class="panel panel-green">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1_1">Attack and defense on a Remedial Action Scheme (interactive)</a>
+                                    <a data-toggle="collapse" href="#collapse1_1">ICS2: Attack and defense on a Remedial Action Scheme (interactive)</a>
                                 </h4>
                               </div>
                               <div id="collapse1_1" class="panel-collapse collapse">
@@ -311,10 +311,10 @@ function redirect(form){
                             </div>
                         </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-green">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse2">Attack and Defense on Model-based AGC (automated)</a>
+                                    <a data-toggle="collapse" href="#collapse2">ICS3: Attack and Defense on Model-based AGC (automated)</a>
                                 </h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse">
@@ -323,10 +323,10 @@ function redirect(form){
                         </div>
                     </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-green">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse2_2">Attack and Defense on Model-based AGC (interactive)</a>
+                                    <a data-toggle="collapse" href="#collapse2_2">ICS4: Attack and Defense on Model-based AGC (interactive)</a>
                                 </h4>
                             </div>
                             <div id="collapse2_2" class="panel-collapse collapse">
@@ -335,10 +335,10 @@ function redirect(form){
                         </div>
                     </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-green">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse6">Ukraine Style Attack and Defense Experiment</a>
+                                    <a data-toggle="collapse" href="#collapse6">ICS5: Ukraine Style Attack and Defense Experiment</a>
                                 </h4>
                             </div>
                             <div id="collapse6" class="panel-collapse collapse">
@@ -350,7 +350,7 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse7"><i>Settings Manipulation (upcoming)</i></a>
+                                    <a data-toggle="collapse" href="#collapse7"><i>ICS6: Settings Manipulation (upcoming)</i></a>
                                 </h4>
                             </div>
                             <div id="collapse7" class="panel-collapse collapse">
@@ -362,7 +362,7 @@ function redirect(form){
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse5"><i>State Estimation (upcoming)</i></a>
+                                    <a data-toggle="collapse" href="#collapse5"><i>ICS7: State Estimation (upcoming)</i></a>
                                 </h4>
                             </div>
                             <div id="collapse5" class="panel-collapse collapse">

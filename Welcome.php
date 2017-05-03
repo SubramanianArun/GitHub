@@ -93,10 +93,10 @@
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                      <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -107,7 +107,6 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
     <header>
         <div class="header-content">
             <div class="header-content-inner">
@@ -273,25 +272,6 @@
                     <div id="particles-js"></div>
                 </div>
     </section>-->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to collaborate with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>515-294-9175</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:gmani@iastate.edu">gmani@iastate.edu</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

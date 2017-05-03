@@ -11,7 +11,7 @@
     <title>PowerCyber Labs - Iowa State University</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -54,10 +54,10 @@
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                      <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -81,7 +81,7 @@
                             <div class="panel panel-default">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1">WSCC 9-bus Model</a>
+                                    <a data-toggle="collapse" href="#collapse1">WSCC 9-bus Model : RTDS </a>
                                 </h4>
                               </div>
                               <div id="collapse1" class="panel-collapse collapse">
@@ -93,7 +93,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse2">IEEE 14-bus Model</a>
+                                    <a data-toggle="collapse" href="#collapse2">IEEE 14-bus Model : RTDS</a>
                                 </h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse">
@@ -105,7 +105,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse3">IEEE 39-bus Model</a>
+                                    <a data-toggle="collapse" href="#collapse3">IEEE 39-bus Model: OPAL-RT</a>
                                 </h4>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
@@ -113,6 +113,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!--<div class="panel-group">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -165,12 +166,26 @@
             </div>
         </div>
     </section>
+    <!--<div class="background-wrap">
+      <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth">
+                <source src="/powercyber/video/snow/snow.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                <source src="/powercyber/video/snow/snow.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+            <div class="poster hidden">
+                <img src="/powercyber/video/snow/snow.jpg" alt="">
+            </div>
+        </div>
+      </div>
+    </div>-->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

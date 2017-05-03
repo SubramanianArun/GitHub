@@ -11,7 +11,7 @@
     <title>PowerCyber Labs - Iowa State University</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -54,10 +54,10 @@
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/team.php#publications">Publications</a>
+                      <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/powercyber/powersystems.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -78,10 +78,10 @@
                     <h2 class="section-heading text-center">Attack Tools</h2>
                     <hr class="light">
                         <div class="panel-group">
-                            <div class="panel panel-default">
+                            <div class="panel panel-red">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1">Vulnerability Analysis</a>
+                                    <a data-toggle="collapse" href="#collapse1">    Vulnerability Analysis</a>
                                 </h4>
                               </div>
                               <div id="collapse1" class="panel-collapse collapse">
@@ -90,9 +90,9 @@
                             </div>
                         </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-red">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-left">
                                     <a data-toggle="collapse" href="#collapse2">Wireless Attacks</a>
                                 </h4>
                             </div>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-red">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" href="#collapse3">Information Gathering</a>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-red">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" href="#collapse4">Metapackages</a>
@@ -130,7 +130,7 @@
                     <h2 class="section-heading text-center">Mitigation Tools</h2>
                     <hr class="light">
                         <div class="panel-group">
-                            <div class="panel panel-default">
+                            <div class="panel panel-green">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" href="#collapse5">Two-factor Authentication</a>
