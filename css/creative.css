@@ -28,7 +28,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #fff;
+  color: #d168ff;
 }
 h1,
 h2,
@@ -413,7 +413,7 @@ fieldset[disabled] .btn-primary.active {
   background: #222222;
 }
 ::selection {
-  color: white;
+  color: orange;
   text-shadow: none;
   background: #222222;
 }
@@ -544,4 +544,7 @@ li{list-style:none}
 }
 .video-container video.fillWidth {
     width: 100%;
+}
+.row-bottom-margin{
+  margin-bottom: 20px
 }

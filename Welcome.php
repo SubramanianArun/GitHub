@@ -87,7 +87,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">About</a>
+                        <a class="page-scroll" href="/powercyber/about.php">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
@@ -96,7 +96,7 @@
                       <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Outreach</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -110,9 +110,9 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Power Infrastructure Cybersecurity Laboratory</h1>
+                <h1 id="homeHeading"><font color="white"><style> h1 {text-shadow: 2px 3px black}h2 {color: white;text-shadow: 2px 2px black}</style>Power Infrastructure Cybersecurity Laboratory</font></h1>
                 <hr>
-                <p>Department of Electrical and Computer Engineering, Iowa State University</p>
+                <p><h2>Department of Electrical and Computer Engineering<br>Iowa State University</h2></p>
                 <a href="#tutorials" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -121,7 +121,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Test Bed Experiments</h2>
+                    <h3 class="section-heading">Test Bed Experiments</h3>
                     <hr class="primary">
                 </div>
             </div>
@@ -131,13 +131,12 @@
                  <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
                         <a href="/powercyber/storyboard.php"><i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i></a>
-                        <h3> Storyboards</h3>
+                        <h3>Storyboards</h3>
                         <p class="text-muted">Browse through our standard template storyboards to get an idea about the Cyber-physical systems.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
-                        <!--<a href="/powercyber/download/AGC39busopalrt.py" download><i class="fa fa-4x fa-download text-primary sr-icons"></i></a>-->
                         <a href="/powercyber/powersystems.php"><i class="fa fa-4x fa-download text-primary sr-icons"></i></a>
                         <h3>Power System Models</h3>
                         <p class="text-muted">Download some of our very own powersystem models for experiments.</p>

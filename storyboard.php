@@ -186,14 +186,14 @@ function redirect(form){
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="/powercyber/welcome.php#page-top">Power Cyber Labs</a>
+                <a class="navbar-brand page-scroll" href="/powercyber/welcome.php#page-top">Power Infrastructure Cybersecurity Laboratory</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">About</a>
+                        <a class="page-scroll" href="/powercyber/about.php">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
@@ -202,7 +202,7 @@ function redirect(form){
                       <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Outreach</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -229,7 +229,7 @@ function redirect(form){
                               </h4>
                           </div>
                           <div id="portscan" class="panel-collapse collapse">
-                              <div class="panel-body"><font color = "black">The attack. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br><a href="/powercyber/portscan.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="" class="btn btn-primary" download> Manual </a></font></div>
+                              <div class="panel-body"><font color = "black">This is a simple exercise that involves scanning of vulnerable nodes in a network.In this experiment, we can learn how an attacker uses port scanning to gather information that can be used later for an attack.We will also be able to discover what hosts are alive on a network and what services are running on them.<br><br>Port Scanning is the process of making connection attempts to another networked computing device in order to gain information about what services are running on the machine.<br><br>The most common tool to perform this operation is called Nmap. Nmap, and its graphical counterpart Zenmap, allow an individual to scan vast networks and to discover what machines are on the network and what services are being offered.<br><br><a href="/powercyber/portscan.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/portscan.pdf" class="btn btn-primary" target="_blank"> Manual </a></font></div>
                           </div>
                       </div>
                   </div>
@@ -241,7 +241,7 @@ function redirect(form){
                               </h4>
                           </div>
                           <div id="vulnerability" class="panel-collapse collapse">
-                              <div class="panel-body"><font color = "black">The attack. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br><a href="/powercyber/openvas.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="" class="btn btn-primary" download> Manual </a></font></div>
+                              <div class="panel-body"><font color = "black">This experiment is designed to understand the importance of discovering system vulnerabilities using detailed scans.We can analyze the severity of their impacts and potential solutions to patch critical vulnerabilities.<br><br>Vulnerabilities can be discovered with a vulnerability scanner, which analyzes a computer system in search of known vulnerabilities, such as open ports, insecure software configuration, and susceptibility to malware.<br><br><a href="/powercyber/openvas.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/openvas.pdf" class="btn btn-primary" target="_blank"> Manual </a></font></div>
                           </div>
                       </div>
                   </div>
@@ -253,7 +253,7 @@ function redirect(form){
                               </h4>
                           </div>
                           <div id="wireshark" class="panel-collapse collapse">
-                              <div class="panel-body"><font color = "black">The attack. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br><a href="/powercyber/replay.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="" class="btn btn-primary" download> Manual </a></font></div>
+                              <div class="panel-body"><font color = "black">This experiment lets us gain a basic understanding of how packet sniffing tools could be used to understand traffic patterns and data formats.It also lets us understand the basics of how captured traffic could be used to replay command packets to create unintended effects on protective relays.<br><br>In this experiment, we will use a packet capturing tool called Wireshark, capture some packets between the Control Center and the substation and replay some of the packets to create a disturbance in the system.<br><br><a href="/powercyber/replay.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/wireshark.pdf" class="btn btn-primary" target="_blank"> Manual </a></font></div>
                           </div>
                       </div>
                   </div>
@@ -265,7 +265,7 @@ function redirect(form){
                               </h4>
                           </div>
                           <div id="pfsense" class="panel-collapse collapse">
-                              <div class="panel-body"><font color = "black">The attack. The attacker performs a stealthy attack where he exploits his knowledge about the measurement configurations at multiple substations to carefully select the locations where he would manipulate the measurements. <br><br> The attack vector involves the classic Man-in-the-Middle attack, where the attacker tricks the RTU to its data to the attacker machine instead of the substation gateway using an ARP poisoning attack. By decoding the unencrypted network traffic, the attacker selects and modifies appropriately certain targeted measurements to avoid detection by the State Estimator Bad Data Detectors.<br><br><a href="/powercyber/pfsense.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="" class="btn btn-primary" download> Manual </a></font></div>
+                              <div class="panel-body"><font color = "black">This experiment is an extension to the previous experiment. In this experiment, we will learn to configure firewall rules to meet certain security requirements.In addition, we will also learn how to restrict access to various devices connected based on the requirements.<br><br> This experiment also involves wireshark packet capture, scripting, replay attack. Then, we configure the firewall so that these kind of attacks don't happen in the system.<br><br><a href="/powercyber/pfsense.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/pfsense.pdf" class="btn btn-primary" target="_blank"> Manual </a></font></div>
                           </div>
                       </div>
                   </div>
@@ -294,7 +294,7 @@ function redirect(form){
                                 </h4>
                               </div>
                               <div id="collapse1" class="panel-collapse collapse">
-                                    <div class="panel-body"><font color = "black">The attack involves a combination of two coordinated attack actions on a power system protection scheme known as Remedial Action Scheme (RAS). Typically, RAS are intended to take specific protective measures to prevent the spread of large disturbances under heavy system loading conditions.<br><br> However, the attacker intelligently triggers the operation of this RAS by creating a data integrity attack on unencrypted communication between the substation and the control center that uses the DNP3 protocol. In order to create a cascading outage, the attacker also blocks the communication between the protection relays that are involved in the RAS through a targeted Denial of Service (DoS) attack on one of the protection controllers.<br><br>This prevents the successful operation of the RAS and in turn initiates secondary protection to be tripped to avoid thermal overload on the impacted transmission line. As a result of this coordinated attack involving data integrity attack to trip a breaker and a DoS attack on RAS communications, the overall system frequency is also affected as it causes the islanding of a generator from the rest of the system.<br><br><a href="/DHSDemo/Home.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/PowerCyber_RemoteAccess_UserGuide.pdf" class="btn btn-primary" download>Manual</a></font></div>
+                                    <div class="panel-body"><font color = "black">This experiment is based on attack modelling and defense method for the power system protection scheme, also known as Remedial Action Scheme (RAS). Typically, RAS is implemented to take specific corrective actions to prevent the widespread outages during disturbances in power system. The attacker initiates the coordinated attacks by performing the malicious line tripping through data integrity attack on unencrypted communication between the substation and the control center. Eventually, the attacker also blocks the communication in RAS through a targeted Denial of Service (DoS) attack on one of the protection controllers.<br><br>This prevents the successful operation of the RAS and in turn causes thermal overloading on other transmission lines. As a result of this coordinated attacks, the overall system stability is affected as it causes the islanding of a generator from the rest of the system.<br><br><a href="/DHSDemo/Home.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/PowerCyber_RemoteAccess_UserGuide.pdf" class="btn btn-primary" target="_blank">Manual</a></font></div>
                               </div>
                             </div>
                         </div>
@@ -306,7 +306,7 @@ function redirect(form){
                                 </h4>
                               </div>
                               <div id="collapse1_1" class="panel-collapse collapse">
-                                    <div class="panel-body"><font color = "black">The attack involves a combination of two coordinated attack actions on a power system protection scheme known as Remedial Action Scheme (RAS). Typically, RAS are intended to take specific protective measures to prevent the spread of large disturbances under heavy system loading conditions.<br><br> However, the attacker intelligently triggers the operation of this RAS by creating a data integrity attack on unencrypted communication between the substation and the control center that uses the DNP3 protocol. In order to create a cascading outage, the attacker also blocks the communication between the protection relays that are involved in the RAS through a targeted Denial of Service (DoS) attack on one of the protection controllers.<br><br>This prevents the successful operation of the RAS and in turn initiates secondary protection to be tripped to avoid thermal overload on the impacted transmission line. As a result of this coordinated attack involving data integrity attack to trip a breaker and a DoS attack on RAS communications, the overall system frequency is also affected as it causes the islanding of a generator from the rest of the system.<br><br><a href="/powercyber/ras.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/PowerCyber_RemoteAccess_UserGuide.pdf" class="btn btn-primary" download>Manual</a></font></div>
+                                    <div class="panel-body"><font color = "black">This experiment is based on attack modelling and defense method for the power system protection scheme, also known as Remedial Action Scheme (RAS). Typically, RAS is implemented to take specific corrective actions to prevent the widespread outages during disturbances in power system. The attacker initiates the coordinated attacks by performing the malicious line tripping through data integrity attack on unencrypted communication between the substation and the control center. Eventually, the attacker also blocks the communication in RAS through a targeted Denial of Service (DoS) attack on one of the protection controllers.<br><br>This prevents the successful operation of the RAS and in turn causes thermal overloading on other transmission lines. As a result of this coordinated attacks, the overall system stability is affected as it causes the islanding of a generator from the rest of the system.<br><br><a href="/powercyber/ras.php" class="btn btn-primary">Launch</a>&nbsp;&nbsp;<a href="/powercyber/download/usermanual/PowerCyber_RemoteAccess_UserGuide.pdf" class="btn btn-primary" target="_blank">Manual</a></font></div>
                               </div>
                             </div>
                         </div>

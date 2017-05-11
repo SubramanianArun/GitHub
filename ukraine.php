@@ -41,14 +41,14 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="/powercyber/welcome.php#page-top">Power Cyber Labs</a>
+                <a class="navbar-brand page-scroll" href="/powercyber/welcome.php#page-top">Power Infrastructure Cybersecurity Laboratory</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">About</a>
+                        <a class="page-scroll" href="/powercyber/about.php">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
@@ -57,7 +57,7 @@
                       <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Outreach</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>

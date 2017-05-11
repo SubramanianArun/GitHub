@@ -41,14 +41,14 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="/powercyber/welcome.php#page-top">Power Cyber Labs</a>
+                <a class="navbar-brand page-scroll" href="/powercyber/welcome.php#page-top">Power Infrastructure Cybersecurity Laboratory</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/powercyber/welcome.php#contact">About</a>
+                        <a class="page-scroll" href="/powercyber/about.php">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/welcome.php#tutorials">Testbed Experiments</a>
@@ -57,7 +57,7 @@
                       <a class="page-scroll" href="/powercyber/publication.php#publications">Publications</a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="/powercyber/download.php">Downloads</a>
+                      <a class="page-scroll" href="/powercyber/download.php">Outreach</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/powercyber/team.php#intro">The Team</a>
@@ -87,12 +87,10 @@
         <li><a data-toggle="tab" href="#researchfocus">Research Focus</a></li>
         <li><a data-toggle="tab" href="#acknowledgements">Acknowledgements</a></li>
       </ul>
-      <div class="tab-content">
-          <div id="publications" class="tab-pane fade in active" active="true">
             <section>
               <div class="container">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><b><h4>Book Chapters & Newsletter</h4></b></div>
+                    <div class="panel-heading"><h4><b>Book Chapters & Newsletter</b></h4></div>
                     <div class="panel-body">
                       <ul>
                         <li>[1] S. Sridhar, G. Manimaran, and C. C. Liu, "Risk Analysis of Coordinated Cyber Attacks on Power Grid," Edited by A. Chakrabortty and M.D. Ilic (eds.), Control and Optimization Methods for Electric Smart Grids, 2012.</li><br>
@@ -104,7 +102,7 @@
               </div>
               <div class="container">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><b><h4>Journal Publications & Newsletter</h4></b></div>
+                    <div class="panel-heading"><h4><b>Journal Publications & Newsletter</b></h4></div>
                     <div class="panel-body">
                       <ul>
                         <li>[1] D. Basheer and G. Manimaran, "Novel hybrid schemes employing packet marking and logging for IP traceback," IEEE Trans. on Parallel and Distributed Systems, vol. 17, no. 5, pp. 403-418, May 2006<!--<a href ="/powercyber/download/publications/1.pdf" disabled>[pdf]</a>--></li><br>
@@ -128,117 +126,7 @@
                 </div>
               </div>
             </section>
-          </div>
-          <div id="team" class="tab-pane fade">
-              <section id="faculty">
-                  <div class="container">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Faculty</div>
-                        <div class="panel-body">
-                          <ul>
-                            <li><a class="nav-link" href="http://ecpe.ece.iastate.edu/gmani">Dr. Manimaran Govindarasu (Principal Investigator)</a></li><br>
-                            <li><a class="nav-link" href="http://www.engineering.iastate.edu/directory/?user_page=vajjarap">Dr. Venkataramana Ajjarapu</a></li><br>
-                            <li><a class="nav-link" href="http://www.dougj.net/">Dr. Doug Jacobson</a></li><br>
-                            <li><a class="nav-link" href="http://home.eng.iastate.edu/~ugvaidya/team.html">Dr. Umesh Vaidya</a></li><br>
-                            <li><a class="nav-link" href="http://school.eecs.wsu.edu/node/1046">Dr. Chen-Ching Liu (Collaborator, Washington State University)</a></li><br>
-                        </ul>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="container">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Current Students</div>
-                        <div class="panel-body">
-                          <ul>
-                            <li>Ashok, Aditya, Ph.D.</li><br>
-                            <li>Wang, Pengyuan, Ph.D.</li><br>
-                            <li>Singh, Vivek Kumar, Ph.D.</li><br>
-                            <li>Arunachalam, Subramanian, M.S.</li><br>
-                            <li>Sarangan, Sri Krishna, M.S.</li><br>
-                            <li>Perez Callupe, Steven V, M.S.</li><br>
-                            <li>Drahos, Jacob M, M.S.</li><br>
-                            <li>Ulrich, Jacob J, M.S.</li><br>
-                            <li>Ebrahem, Haythem E, M.S.</li><br>
-                        </ul>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="container">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">Previous Students</div>
-                        <div class="panel-body">
-                          <ul>
-                            <li>Adam Hahn, Ph.D.</li><br>
-                            <li>Siddharth Sridhar, Ph.D.</li><br>
-                            <li>Chee-Wooi Ten, Ph.D.</li><br>
-                            <li>Mohammad Fraiwan, Ph.D.</li><br>
-                            <li>Jie Yan, Ph.D.</li><br>
-                            <li>Srdjan Pudar, M.S.</li><br>
-                            <li>Brown, Matthew, M.S.</li><br>
-                            <li>Krishnaswamy, Sujatha, M.S.</li><br>
-                            <li>Pappa, Aswin Chidambaram, M.S.</li><br>
-                            <li>Ryan Eikanger, REU Student</li><br>
-                        </ul>
-                        </div>
-                    </div>
-                  </div>
-              </section>
-            </div>
-          <div id="researchfocus" class="tab-pane fade">
-            <section>
-              <div class="container">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h4>Cyber-Physical Systems Security of the Smart Grid</h4></div>
-                    <div class="panel-body">
-                      The electric power grid is a highly automated network that uses a variety of sensors, information and control systems, and communication networks for the purpose of monitoring, protection and control of the grid. In recent years, there has been a growing threat of cyber-based attacks in numbers and sophistication on the nation’s electric grid and other critical infrastructure systems. Therefore, cyber security of the power grid — encompassing attack prevention, detection, mitigation, resilience, and atribuiton — is among the most important research issues today and in the future.
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h4>Our research focus</h4></div>
-                    <div class="panel-body">
-                      Cyber-physical systems framework for risk modeling, risk mitigation, and attack-resilient protection and control algorithms that account for dynamics of the physical system as well as the operational aspects of the control network.                    </div>
-                </div>
-              </div>
-
-            </section>
-          </div>
-          <div id="acknowledgements" class="tab-pane fade">
-            <section>
-              <div class="container">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Book Chapters & Newsletter</div>
-                    <div class="panel-body">
-                      <ul>
-                        <li>[1] S. Sridhar, G. Manimaran, and C. C. Liu, "Risk Analysis of Coordinated Cyber Attacks on Power Grid," Edited by A. Chakrabortty and M.D. Ilic (eds.), Control and Optimization Methods for Electric Smart Grids, 2012.</li><br>
-                        <li>[2] Manimaran Govindarasu and Adam Hahn, <a href="http://smartgrid.ieee.org/newsletter/january-2012/479-what-the-power-industry-has-to-learn-about-cyber-vulnerability-disclosure">"What the Power Industry Has to Learn about Cyber Vulnerability Disclosure"</a>, IEEE Smart Grid Newsletter, Jan. 2012.</li><br>
-                        <li>[3] Aditya Ashok, Pengyuan Wang, and Manimaran Govindarasu, "Cyber-Physical Security Testbeds for an Attack-resilient Smart Grid",in Suryanarayanan, Hansen and Roche (Ed.): "Cyber-Physical-Social Systems and Constructs in Electric Power Engineering", The IET Press, Under review, 2016.</li><br>
-                    </ul>
-                    </div>
-                </div>
-              </div>
-            </section>
-          </div>
         </div>
-
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Let's Get In Touch!</h2>
-                        <hr class="primary">
-                        <p>Ready to collaborate with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-2 text-center">
-                        <i class="fa fa-phone fa-3x sr-contact"></i>
-                        <p>515-294-9175</p>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                        <p><a href="mailto:gmani@iastate.edu">gmani@iastate.edu</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
