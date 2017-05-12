@@ -75,28 +75,27 @@
         <div class="container">
           <div class="row">
                 <ul class="nav nav-pills nav-justified">
-                  <li class="active"><a href="#posters">Posters and Presentations</a></li>
-                  <li><a href="#users">Testbed Users</a></li>
-                  <li><a href="#outreach">Outreach Activities</a></li>
+                  <li><a href="#posters"><b><h4>Posters and Presentations</b></h4></a></li>
+                  <li><a href="#users"><b><h4>Testbed Users</b></h4></a></li>
+                  <li><a href="#outreach"><b><h4>Outreach Activities</b></h4></a></li>
                 </ul><br><br>
                   <div class="row row-bottom-margin" id="posters">
                     <h2 class="section-heading text-center">Posters and Presentations</h2>
                     <hr class="light">
                       <div class="panel panel-default">
-                          <div class="panel-heading"><b>Presentations</b></div>
+                          <div class="panel-heading"><b><h4>Presentations</b></h4></div>
                           <div class="panel-body">
                             <ul>
-                              <li><a href="/powercyber/download/presentations/ras.pdf" target="_blank">Cyber-physical security of RAS scheme</a></li>
+                              <li><a href="/powercyber/download/presentations/ras.pdf" target="_blank"><h4>Cyber-physical security of RAS scheme</h4></a></li>
                             </ul>
                           </div>
                       </div>
                       <div class="panel panel-default">
-                          <div class="panel-heading"><b>Posters</b></div>
+                          <div class="panel-heading"><b><h4>Posters</b></h4></div>
                           <div class="panel-body">
                             <ul>
-                              <li><a href="/powercyber/download/presentations/testbed_flier.pdf" target="_blank">PowerCyber Testbed Flier</a></li>
-                              <li><a href="/powercyber/download/presentations/early_users.pdf" target="_blank">PowerCyber Testbed Early Users</a></li>
-                              <li><a href="/powercyber/download/presentations/pserc_2017.pdf" target="_blank">PSERC IAB Meeting, May 2017</a></li>
+                              <li><a href="/powercyber/download/presentations/testbed_flier.pdf" target="_blank"><h4>PowerCyber Testbed Flier</h4></a></li>
+                              <li><a href="/powercyber/download/presentations/pserc_2017.pdf" target="_blank"><h4>PSERC IAB Meeting, May 2017</h4></a></li>
                             </ul>
                           </div>
                       </div>
@@ -104,26 +103,56 @@
                     <div class="row row-bottom-margin" id="users">
                     <h2 class="section-heading text-center">Test Bed Users</h2>
                     <hr class="light">
-                            <div class="panel panel-default">
-                              <div class="panel-heading"><b>Early Users</b></div>
-                              <div class="panel-body">
-                                <ul>
-                                  <li>Symantec</li>
-                                  <li>Accenture</li>
-                                  <li>Pacific Northwest National Laboratory</li>
-                                  <li>John Hopkins University</li>
-                                  <li>University of Minnesota, Duluth</li>
-                                </ul>
-                              </div>
-                            </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading"><b><h4>Early Users</b></h4></div>
+                        <div class="panel-body">
+                          <ul>
+                            <li><h4>Symantec</h4></li>
+                            <li><h4>Accenture</h4></li>
+                            <li><h4>Pacific Northwest National Laboratory</h4></li>
+                            <li><h4>John Hopkins University</h4></li>
+                            <li><h4>University of Minnesota, Duluth</h4></li>
+                            <li><a href="/powercyber/download/presentations/early_users.pdf" target="_blank"><h4>PowerCyber Testbed Early Users</h4></a></li>
+                          </ul>
+                        </div>
+                      </div>
                     </div><br><br>
                     <div class="row row-bottom-margin" id="outreach">
-                    <h2 class="section-heading text-center" id="outreach">Outreach Activities</h2>
-                    <hr class="light">
-                    <img style ="float-left" src="img/GridSecCon1.jpg" class="img-thumbnail" alt="Responsive image" height="30%" width="30%">
-                    <div class="content-heading"><h3>Experience &nbsp </h3></div>
-                    <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                    <div style="clear:both"></div>
+                      <h2 class="section-heading text-center" id="outreach">Outreach Activities</h2>
+                      <hr class="light">
+                      <div class="col-lg-6 col-md-6">
+                        <img style ="float-left" src="img/GridSecCon1.jpg" class="img-thumbnail" alt="Responsive image" height="40%" width="40%">
+                        <div class="content-heading"><h3>Global City Teams Challenge 2015</h3></div>
+                        <p>DATE: Oct. 13-16, 2015<br><br>VENUE: Philadelphia, USA</p>
+                        <div style="clear:both"></div><br><br>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <img style ="float-left" src="img/GridSecCon2.jpg" class="img-thumbnail" alt="Responsive image" height="60%" width="60%">
+                        <div class="content-heading"><h3>2015 GRIDSECCON TRAINING</h3></div>
+                        <p>DATE:  Jun 1, 2015<br><br>VENUE:  Washington D.C, USA</p>
+                        <div style="clear:both"></div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><b><h4>Industry Outreach and Community Engagement</b></h4></div>
+                      <div class="panel-body">
+                        <ul>
+                          <li><h4><a href="http://smartamerica.org/teams/smart-energy-cps/" target="_blank">Smart Energy CPS project</a></h4></li>
+                          <li><h4><a href="http://smartamerica.org/news/iowa-state-researchers-to-demonstrate-cyber-physical-security-testbed-for-power-grid-at-smartamerica-challenge-expo/" target="_blank">Iowa State researchers to demonstrate cyber-physical security testbed for power grid at SmartAmerica Challenge expo</a></h4></li>
+                          <li><h4><a href="/powercyber/download/presentations/SmartAmerica_Demo.mp4" target="_blank">DEMO: Cyber attack-defense demo on the federated CPS Testbed</a></h4></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><b><h4>Global City Teams Challenge 2015</b></h4></div>
+                      <div class="panel-body">
+                        <ul>
+                          <li><h4><a href="https://www.us-ignite.org/apps/3xhL68PYKna6rgJxNeL4Zd/" target="_blank" >Team CyDECS: Cyber Defense Exercises for Critical Infrastructure Security </a></h4></li>
+                          <li><h4><a href="http://news.engineering.iastate.edu/2015/09/16/iowa-state-awarded-nsf-global-city-teams-challenge-project/" target="_blank">Iowa State awarded NSF Global City Teams Challenge project</a></h4></li>
+                          <li><h4><a href="http://www.nerc.com/pa/CI/CIPOutreach/Pages/GridSecCon-Training-Tracks.aspx" target="_blank">NERC GridSecCon 2015 & 2016 -- Cyber Security Hands-on Training</a></h4></li>
+                          <li><h4><a href="http://www.nerc.com/pa/CI/CIPOutreach/Pages/GridSecCon-Training-Tracks.aspx" target="_blank">CyDECS: Cyber Attack-Defense Training Exercise for Power Grid</a></h4></li>
+                        </ul>
+                      </div>
                     </div>
 
 

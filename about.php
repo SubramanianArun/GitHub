@@ -85,30 +85,43 @@
               <div class="container">
                 <div class="panel panel-default">
                     <div class="panel-heading"><h4><b>Cyber-Physical Systems Security of the Smart Grid</b></h4></div>
-                    <div class="panel-body">
+                    <div class="panel-body text-justify">
                       The electric power grid is a highly automated network that uses a variety of sensors, information and control systems, and communication networks for the purpose of monitoring, protection and control of the grid. In recent years, there has been a growing threat of cyber-based attacks in numbers and sophistication on the nation’s electric grid and other critical infrastructure systems. Therefore, cyber security of the power grid — encompassing attack prevention, detection, mitigation, resilience, and atribuiton — is among the most important research issues today and in the future.
                     </div>
                 </div>
                 <div class="panel panel-info">
                     <div class="panel-heading"><h4><b>Vision</b></h4></div>
-                    <div class="panel-body">
+                    <div class="panel-body text-justify">
                       "Transform the Fault-Resilient Grid of today into a Secure and Attack-Resilient Grid of the Future"</div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading"><h4><b>Our research focus</b></h4></div>
-                    <div class="panel-body">
+                    <div class="panel-body text-justify">
                       Our research articulates a holistic cyber security framework encompassing attack deterrence, prevention, detection, mitigation, resilience, and attribution. In particular, it focuses on the development of cyber-physical system algorithms, techniques, and tools for cyber risk modeling, risk mitigation, and attack-resilient monitoring, protection, and control that account for dynamics of the physical system as well as the operational aspects of the cyber and control network. Our focus is also on the development of a realistic CPS Security Testbed and experimental evaluation/validation of the cyber security solutions bridging the gap between academic research and industry practice.</div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading"><h4><b>Research Objectives & Highlights:</b></h4></div>
-                    <div class="panel-body">
-                      <ul>
+                    <div class="panel-body text-justify">
+                      <ol>
                         <li>[1] <b>Vulnerability Analysis</b>: Systematic evaluation of cyber vulnerabilities in the substation, SCADA, and control center of the power grid</li><br>
                         <li>[2] <b>Impact Analysis</b>: Quantifying the impact cyber attacks on the operational security and stability of the power grid</li><br>
                         <li>[3] <b>Risk Modeling</b>: Quantitative methodology for evaluating the risk due to cyber attacks, including cyber coordinated attacks</li><br>
-                        <li>[4] <b>Risk Mitigation</b>: Attack-resilient monitoring, protection, and control algorithms, and model-based anomaly detection to detect and mitigate cyber attacks</li><br>
-                        <li>[5] <b>Tesbed & Experimentation</b>: An integrated CPS security testbed, called PowerCyber, that interfaces industry-grade SCADA with real-time power system simulator (RTDS), with industrial power system devices (relays, PMUs) and energy management system (EMS) software, grid communication and security technologies. The testbed provides a realistic platform to conduct cyber attack-defense evaluations and cyber security training</li><br>
-                      </ul>
+                        <li>[4] <b>Risk Mitigation</b>: Attack-resilient monitoring, protection, and control algorithms, and model-based anomaly detection to detect and mitigate cyber &nbsp;&nbsp;&nbsp;&nbsp; attacks</li><br>
+                        <li>[5] <b>Tesbed & Experimentation</b>: An integrated CPS security testbed, called PowerCyber, that interfaces industry-grade SCADA with real-time power &nbsp;&nbsp;&nbsp;&nbsp;system simulator (RTDS), with industrial power system devices (relays, PMUs) and energy management system (EMS) software, grid communication &nbsp;&nbsp;&nbsp;&nbsp;and security technologies. The testbed provides a realistic platform to conduct cyber attack-defense evaluations and cyber security training</li><br>
+                      </ol>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h4><b>Acknowledgments:</b></h4></div>
+                    <div class="panel-body text-justify">
+                      <p>Our Research Projects (recent ones) are funded by U.S. NSF, DOE, DHS grants.</p>
+                      <ol>
+                        <li><b>Award Number: NSF EECS 1202542</b><br>Project Title:  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1202542&HistoricalAwards=false">Collaborative Research: Resiliency against Coordinated Cyber Attacks on Power Grid</a></li><br>
+                        <li><b>Award Number: NSF & DHS CNS 1446831</b><br>Project Title:  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1446831&HistoricalAwards=false">CPS-Synergy: High-Fidelity, Scalable, Open-Access Cyber Security Testbed for Accelerating Smart Grid Innovations and Deployments</a></li><br>
+                        <li><b>Award Number: DOE CEDS Program </b><br>Project Title:  <a href="https://energy.gov/sites/prod/files/2016/08/f33/CEDS%20award%20selections%20August2016%20fact%20sheet%20FINAL_2.pdf">Autonomous Tools for Attack Surface Reduction</a></li><br>
+                        <li><b>Award Number: NSF CNS 1329915</b><br>Project Title:  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1329915&HistoricalAwards=false">CPS-Synergy: Collaborative Research: A Unified System Theoretic Framework for Cyber Attack-Resilient Power Grid</a></li><br>
+                        <li><b>Award Number: NSF CNS 1528731</b><br>Project Title:  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1528731&HistoricalAwards=false">GCTC EAGER: Risk Modeling and Cyber Defense Exercise for Critical Infrastructures Security</a></li><br>
+                      </ol>
                     </div>
                 </div>
               </div>

@@ -78,7 +78,7 @@
                     <h2 class="section-heading text-center">Power System Model Downloads</h2>
                     <hr class="light">
                         <div class="panel-group">
-                            <div class="panel panel-default">
+                            <div class="panel panel-green">
                               <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" href="#collapse1">WSCC 9-bus Model : RTDS </a>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-green">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" href="#collapse2">IEEE 14-bus Model : RTDS</a>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div class="panel-group">
-                        <div class="panel panel-default">
+                        <div class="panel panel-green">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" href="#collapse3">IEEE 39-bus Model: OPAL-RT</a>
@@ -113,6 +113,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--<img style ="float-left" src="img/test.png" class="img-thumbnail" alt="Responsive image" height="100%" width="100%">-->
 
                     <!--<div class="panel-group">
                         <div class="panel panel-default">
