@@ -151,7 +151,8 @@
                 </div>
                 <div class="col-lg-3 col-md-3 text-center">
                     <div class="service-box">
-                        <a href="http://10.1.0.5:8080/vnc/"><i class="fa fa-4x fa-edit text-primary sr-icons"></i></a>
+                        <!--<a href="http://10.1.0.5:8080/vnc/"><i class="fa fa-4x fa-edit text-primary sr-icons"></i></a>-->
+                        <a href="/powercyber/temp.php"><i class="fa fa-4x fa-edit text-primary sr-icons"></i></a>
                         <h3>CPS Security Training</h3>
                         <p class="text-muted">Get access to all manuals and training</p>
                     </div>
