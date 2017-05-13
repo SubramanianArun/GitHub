@@ -180,7 +180,7 @@
         <div class="container">
             <h2>Attacker</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://10.1.200.136:8081/vnc/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/attacker/"></iframe>
             </div>
         </div>
     </section>

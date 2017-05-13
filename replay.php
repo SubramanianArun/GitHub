@@ -172,7 +172,7 @@
         <div class="container">
             <h2>Attacker</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://10.1.200.136:8081/vnc/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/attacker/"></iframe>
             </div>
         </div>
     </section>
@@ -181,7 +181,7 @@
         <div class="container">
             <h2>Control Center</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://10.1.200.32:8080/vnc/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/cc-cyb/"></iframe>
             </div>
         </div>
     </section>
@@ -190,7 +190,7 @@
         <div class="container">
             <h2>Substation</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="http://10.1.200.89:8080/vnc/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/sub-rtu/"></iframe>
             </div>
         </div>
     </section>
