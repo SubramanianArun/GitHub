@@ -85,7 +85,7 @@
                                 </h4>
                               </div>
                               <div id="collapse1" class="panel-collapse collapse">
-                                    <div class="panel-body"><font color = "black"><strong>Description:</strong>This WSCC 9-bus test case represents a simple approximation of the Western System Coordinating Council (WSCC) to an equivalent system with nine buses and three generators.<br><br><strong>Topology:</strong><img src="img/WSCC9.png" class="img-responsive" alt=""><strong>Model:</strong><a href="/powercyber/download/WSCC 9 bus.zip" download>WSCC 9 Bus</a><br><br><strong>Reference:</strong><a href="http://icseg.iti.illinois.edu/wscc-9-bus-system/">http://icseg.iti.illinois.edu/wscc-9-bus-system/</a></font></div>
+                                    <div class="panel-body"><font color = "black"><strong>Description:</strong>This WSCC 9-bus test case represents a simple approximation of the Western System Coordinating Council (WSCC) to an equivalent system with nine buses and three generators.<br><br><strong>Topology:</strong><img src="img/WSCC9.png" class="img-responsive" alt=""><strong>Model:</strong><a href="/powercyber/models/download/WSCC 9 bus.zip" download>WSCC 9 Bus</a><br><br><strong>Reference:</strong><a href="http://icseg.iti.illinois.edu/wscc-9-bus-system/">http://icseg.iti.illinois.edu/wscc-9-bus-system/</a></font></div>
                               </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                                 </h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body"><font color = "black"><strong>Description:</strong>The IEEE 14-bus test case represents a simple approximation of the American Electric Power system. It has 14 buses, 5 generators, and 11 loads.<br><br><strong>Topology:</strong><img src="img/IEEE14.png" class="img-responsive" alt=""><strong>Model:</strong><a href="/powercyber/download/IEEE 14 bus.zip" download>IEEE 14 Bus</a><br><br><strong>Reference:</strong><a href="http://icseg.iti.illinois.edu/ieee-14-bus-system/">http://icseg.iti.illinois.edu/ieee-14-bus-system/</a></font></div>
+                                <div class="panel-body"><font color = "black"><strong>Description:</strong>The IEEE 14-bus test case represents a simple approximation of the American Electric Power system. It has 14 buses, 5 generators, and 11 loads.<br><br><strong>Topology:</strong><img src="img/IEEE14.png" class="img-responsive" alt=""><strong>Model:</strong><a href="/powercyber/models/download/IEEE 14 bus.zip" download>IEEE 14 Bus</a><br><br><strong>Reference:</strong><a href="http://icseg.iti.illinois.edu/ieee-14-bus-system/">http://icseg.iti.illinois.edu/ieee-14-bus-system/</a></font></div>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                                 </h4>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body"><font color = "black"><strong>Description:</strong>The “IEEE 39 bus system is well known as 10-machine New-England Power System. Generator 1 represents the aggregation of a large number of generators. All parameters shown below” are taken “from the book titled ‘Energy Function Analysis for Power System Stability’”. The original paper with the IEEE 39-bus system is by T. Athay et al.The IEEE 39-bus system has 10 generators and 46 lines.<br><br><strong>Topology:</strong><img src="img/IEEE39.png" class="img-responsive" alt=""><strong>Model:</strong><a href="/powercyber/download/IEEE 39 bus.zip" download>IEEE 39 Bus</a><br><br><strong>Reference:</strong><a href="http://icseg.iti.illinois.edu/ieee-39-bus-system/">http://icseg.iti.illinois.edu/ieee-39-bus-system/</a></font></div>
+                                <div class="panel-body"><font color = "black"><strong>Description:</strong>The “IEEE 39 bus system is well known as 10-machine New-England Power System. Generator 1 represents the aggregation of a large number of generators. All parameters shown below” are taken “from the book titled ‘Energy Function Analysis for Power System Stability’”. The original paper with the IEEE 39-bus system is by T. Athay et al.The IEEE 39-bus system has 10 generators and 46 lines.<br><br><strong>Topology:</strong><img src="img/IEEE39.png" class="img-responsive" alt=""><strong>Model:</strong><a href="/powercyber/models/download/IEEE 39 bus.zip" download>IEEE 39 Bus</a><br><br><strong>Reference:</strong><a href="http://icseg.iti.illinois.edu/ieee-39-bus-system/">http://icseg.iti.illinois.edu/ieee-39-bus-system/</a></font></div>
                             </div>
                         </div>
                     </div>
