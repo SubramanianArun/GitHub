@@ -180,7 +180,7 @@
         <div class="container">
             <h2>Attacker</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="/vnc/attacker/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/vnc.html?path=vnc/websockify%3Ftoken%3Dattacker"></iframe>
             </div>
         </div>
     </section>

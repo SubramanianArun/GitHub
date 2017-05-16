@@ -172,7 +172,7 @@
         <div class="container">
             <h2>Attacker</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="/vnc/attacker/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/vnc.html?path=vnc/websockify%3Ftoken%3Dattacker"></iframe>
             </div>
         </div>
     </section>
@@ -181,7 +181,7 @@
         <div class="container">
             <h2>Control Center</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="/vnc/cc-cyb/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/vnc.html?path=vnc/websockify%3Ftoken%3Dcc-cyb"></iframe>
             </div>
         </div>
     </section>
@@ -190,7 +190,7 @@
         <div class="container">
             <h2>RTU - Substation</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="/vnc/sub-rtu/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/vnc.html?path=vnc/websockify%3Ftoken%3Dsub-rtu"></iframe>
             </div>
         </div>
     </section>
@@ -199,7 +199,7 @@
         <div class="container">
             <h2>RTU - Workstation</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="/vnc/sub-ws/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/vnc.html?path=vnc/websockify%3Ftoken%3Dsub-ws"></iframe>
             </div>
         </div>
     </section>

@@ -171,7 +171,7 @@
         <div class="container">
             <h2>Control Center</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="/vnc/cc-ukr/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/vnc.html?path=vnc/websockify%3Ftoken%3Dcc-ukr"></iframe>
             </div>
         </div>
     </section>
@@ -180,19 +180,19 @@
         <div class="container">
             <h2>Attacker</h2>
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="/vnc/attacker/"></iframe>
+                <iframe class="embed-responsive-item" src="/vnc/vnc.html?path=vnc/websockify%3Ftoken%3Dattacker"></iframe>
             </div>
         </div>
     </section>
 
-    <section id="firewall">
+    <!--<section id="firewall">
         <div class="container">
             <h2>Firewall</h2>
                 <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="/vnc/attacker/"></iframe>
             </div>
         </div>
-    </section>
+    </section>-->
         <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
