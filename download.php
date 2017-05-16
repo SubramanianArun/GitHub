@@ -123,13 +123,13 @@
                       <div class="col-lg-6 col-md-6">
                         <img style ="float-left" src="img/GridSecCon1.jpg" class="img-thumbnail" alt="Responsive image" height="40%" width="40%">
                         <div class="content-heading"><h3>Global City Teams Challenge 2015</h3></div>
-                        <p>DATE: Oct. 13-16, 2015<br><br>VENUE: Philadelphia, USA</p>
+                        <p>DATE: Jun 1, 2015<br><br>VENUE: Washington D.C, USA</p>
                         <div style="clear:both"></div><br><br>
                       </div>
                       <div class="col-lg-6 col-md-6">
                         <img style ="float-left" src="img/GridSecCon2.jpg" class="img-thumbnail" alt="Responsive image" height="60%" width="60%">
                         <div class="content-heading"><h3>2015 GRIDSECCON TRAINING</h3></div>
-                        <p>DATE:  Jun 1, 2015<br><br>VENUE:  Washington D.C, USA</p>
+                        <p>DATE:  Oct. 13-16, 2015<br><br>VENUE:  Philadelphia, USA</p>
                         <div style="clear:both"></div>
                       </div>
                     </div>

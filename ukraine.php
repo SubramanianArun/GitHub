@@ -184,6 +184,15 @@
             </div>
         </div>
     </section>
+
+    <section id="firewall">
+        <div class="container">
+            <h2>Firewall</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="/vnc/attacker/"></iframe>
+            </div>
+        </div>
+    </section>
         <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 

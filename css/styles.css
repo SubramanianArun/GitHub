@@ -643,7 +643,7 @@ section {
   margin-bottom: 28px;
 }
 .color-overlay {
-  background: rgba(38, 39, 50, 0.85);
+  background: rgba(255, 0, 0, 0);
 }
 /* LOGO AND STICKY NAVIGATION */
 .sticky-navigation {
@@ -672,7 +672,68 @@ section {
 .sticky-navigation .main-navigation li a:focus {
   color: #fc5f45;
 }
-
+/*---------------------------------------
+   2.1.1 SECTION: OTHER PAGES
+-----------------------------------------*/
+.others {
+  background: url(../images/backgrounds/2.jpg) no-repeat top;
+  background-size: cover;
+}
+.others .color-overlay {
+  padding-top: 175px;
+  padding-bottom: 125px;
+}
+.others .intro {
+  margin-top: 62px;
+  margin-bottom: 18px;
+}
+.others .cta {
+  text-align: center;
+}
+.others .cta .standard-button {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.others-features {
+  margin-top: 55px;
+}
+.others-features .single-feature {
+  margin-bottom: 45px;
+}
+.others-features .single-feature .icon {
+  font-size: 45px;
+  margin-bottom: 28px;
+}
+.color-overlay {
+  background: rgba(255, 0, 0, 0);
+}
+/* LOGO AND STICKY NAVIGATION */
+.sticky-navigation {
+  background: #ffffff;
+  min-height: 75px;
+  border-bottom: 0;
+  -webkit-backface-visibility: hidden;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.25);
+}
+.sticky-navigation .navbar-brand {
+  margin-top: 9px;
+}
+.sticky-navigation .navbar-brand img {
+  max-height: 26px;
+}
+.sticky-navigation .current a {
+  color: #fc5f45 !important;
+}
+.sticky-navigation .main-navigation li a {
+  line-height: 45px;
+  color: #313131;
+  font-weight: 500;
+  font-size: 14px;
+}
+.sticky-navigation .main-navigation li a:hover,
+.sticky-navigation .main-navigation li a:focus {
+  color: #fc5f45;
+}
 /*---------------------------------------
    2.2 SECTION: ABOUT US
 -----------------------------------------*/
